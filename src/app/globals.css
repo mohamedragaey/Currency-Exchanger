@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.btn{
+  @apply flex border border-solid p-3 transition-all hover:transition-all;
+}
+
+.btn-default{
+  @apply  border-gray-300 hover:text-white hover:bg-teal-500 hover:border-teal-500;
+}
