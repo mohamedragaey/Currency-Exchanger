@@ -27,9 +27,13 @@ body {
 }
 
 .btn{
-  @apply flex border border-solid p-3 transition-all hover:transition-all;
+  @apply flex justify-center items-center border border-solid p-3 transition-all hover:transition-all;
 }
 
 .btn-default{
   @apply  border-gray-300 hover:text-white hover:bg-teal-500 hover:border-teal-500;
+}
+
+.btn-primary{
+  @apply  border-teal-500 text-white bg-teal-500 hover:opacity-75;
 }
